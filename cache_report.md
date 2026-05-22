@@ -55,7 +55,7 @@ PONG
 
 Screenshot Redis berjalan:
 
-![Redis Berjalan](screenshot/run.png)
+![Redis Berjalan](screenshots/run.png)
 
 ---
 
@@ -232,7 +232,7 @@ Third call after 5 minutes should be slow again because cache has expired.
 
 Screenshot hasil testing:
 
-![Hasil Testing Redis Cache](screenshot/testing.png)
+![Hasil Testing Redis Cache](screenshots/testing.png)
 
 Berdasarkan hasil testing, pemanggilan pertama membutuhkan waktu sekitar 2 detik karena data belum tersedia di cache. Pemanggilan kedua menjadi sangat cepat karena data sudah tersedia di Redis cache.
 
